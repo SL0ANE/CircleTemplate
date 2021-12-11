@@ -1,0 +1,2 @@
+summon minecraft:armor_stand ~ ~1 ~ {Tags:["circle","init"],NoGravity:1b,Invisible:1b,Marker:1b,DisabledSlots:16191,ArmorItems:[{},{},{},{id:"minecraft:leather_horse_armor",Count:1b,tag:{CustomModelData:2,display:{color:0}}}]}
+execute as @e[type=armor_stand,tag=circle,tag=init] run function circle:entity/init

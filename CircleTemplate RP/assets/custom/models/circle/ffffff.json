@@ -1,0 +1,6 @@
+{
+	"parent": "custom:circle/original",
+	"textures": {
+	  "color": "custom:circle/ffffff"
+	}
+}

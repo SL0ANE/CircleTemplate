@@ -1,0 +1,3 @@
+summon minecraft:armor_stand ~ ~ ~ {Tags:["circle","circle_animation","init"],NoGravity:1b,Invisible:1b,Marker:1b,DisabledSlots:16191,ArmorItems:[{},{},{},{id:"minecraft:leather_horse_armor",Count:1b,tag:{CustomModelData:3,display:{color:0}}}]}
+playsound block.amethyst_block.step block @a ~ ~ ~ 2 1 0
+execute as @e[type=armor_stand,tag=circle_animation,tag=init] run function circle_animation:entity/init
