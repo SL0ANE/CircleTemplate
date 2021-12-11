@@ -44,10 +44,10 @@ void main() {
     mat3 WorldMat = getWorldMat(Light0_Direction, Light1_Direction);
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
     if(color.a < 0.505 && color.a > 0.495) {
-        long transvalue = long(Color.r * 255.0) * 65536 + long(Color.g * 255.0) * 256 + long(Color.b * 255.0);
-        long range_max = 1024;
-        long range_bold = 32;
-        long range_alpha = 100;
+        int transvalue = int(Color.r * 255.0) * 65536 + int(Color.g * 255.0) * 256 + int(Color.b * 255.0);
+        int range_max = 1024;
+        int range_bold = 32;
+        int range_alpha = 100;
 
         circle_r = float(transvalue % range_max) / 10.0;
         transvalue /= range_max;
