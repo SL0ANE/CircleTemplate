@@ -4,4 +4,4 @@
 
 # 鸣谢
 - Onnowhere 的 CoreShadersCustomTemplate: https://github.com/onnowhere/core_shaders/tree/master/CoreShadersCustomTemplateRP
-- OuOun 的 UIN标签分类 数据包: https://github.com/ououn/UIN/tree/master/data/uin/tags#%E5%B7%B2%E5%88%B6%E4%BD%9C
+- OuOun 的 UIN标签分类 数据包: https://github.com/ououn/UIN/
